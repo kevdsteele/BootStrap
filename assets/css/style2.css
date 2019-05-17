@@ -1,0 +1,32 @@
+/* Sticky Footer Classes */
+
+html,
+body {
+  height: 100%;
+}
+
+#page-content {
+  flex: 1 0 auto;
+}
+
+#sticky-footer {
+  flex-shrink: none;
+}
+
+.port-overlay {
+position:absolute;
+bottom:20%;
+text-align: center;
+width:300px;
+}
+
+.logo-marg {
+margin-left:150px;
+}
+
+@media screen and (max-width:768px) {
+.logo-marg {
+margin-left:75px;
+}    
+}
+
