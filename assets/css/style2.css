@@ -23,3 +23,18 @@ width:100%;
 
 
 
+@media only screen 
+and (min-device-width : 768px) 
+
+ {
+
+  .port-overlay {
+    position:absolute;
+    bottom:20%;
+    text-align: center;
+    max-width:300px;
+    width:90%;
+    }
+}
+
+
